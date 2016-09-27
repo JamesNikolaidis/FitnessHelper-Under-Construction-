@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#804020">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#d8c7c7"
+    android:id="@+id/toolbar1"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+</android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:src="@drawable/nikelogo1"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="27dp"
+            android:text="MyFitnessHelper"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/white"
+
+            /><ImageView
+        android:layout_marginTop="11dp"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:src="@drawable/rr"
+        />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1"
+        android:visibility="invisible"
+       >
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:hint="Name"
+            android:id="@+id/Name_ED"
+            android:visibility="invisible"
+            android:textColorHint="@android:color/white"/>
+        <EditText
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:hint="Password "
+            android:visibility="invisible"
+            android:id="@+id/Password_ED"
+            android:textColorHint="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:hint="Email"
+            android:visibility="invisible"
+            android:id="@+id/Email_ED"
+            android:textColorHint="@android:color/white"/>
+        <EditText
+            android:layout_marginLeft="30dp"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:hint="Date of Birth"
+            android:id="@+id/Birth_ED"
+            android:visibility="invisible"
+            android:textColorHint="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Sign in"
+            android:background="#f1f1f1"
+            android:textColor="#804020"
+            android:onClick="Sign_In"/>
+        <Button
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Log in"
+            android:background="#f1f1f1"
+            android:textColor="#804020"
+            android:onClick="Log_In"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff9661"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="25dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+           android:background="@drawable/record_icon"
+            android:onClick="SponsorClass"
+            android:id="@+id/Under_Armour"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:background="@drawable/bbcom"
+            android:onClick="SponsorClass"
+            android:id="@+id/bbcom"/>
+        <ImageView
+
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/elixir"
+            android:onClick="SponsorClass"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">MyFitnessHelper</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+<string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="sdsdsdsdsdsss">sdsdsdsdsdsss</string>
+
+    <string-array name="Weakness">
+        <item>Weaknesses</item>
+        <item>Back </item>
+         <item>
+                Upper Back
+            </item>
+            <item>
+                Down Back
+            </item>
+            <item>
+                Trapezius(Traps)
+            </item>
+
+
+        <item>Chest</item>
+         <item>
+                Upper Pec
+            </item>
+            <item>
+                Low Pec
+            </item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Glutes</item>
+        <item>Calves</item>
+        <item>Deltoids</item>
+    </string-array>
+
+
+    <string-array name="Strong_Point">
+        <item>Strong Point</item>
+        <item>Back </item>
+         <item>
+                Upper Back
+            </item>
+            <item>
+                Down Back
+            </item>
+            <item>
+                Trapezius(Traps)
+            </item>
+
+
+        <item>Chest</item>
+         <item>
+                Upper Pec
+            </item>
+            <item>
+                Low Pec
+            </item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Glutes</item>
+        <item>Calves</item>
+        <item>Deltoids</item>
+    </string-array>
+
+
+
+    <string-array name="Medical">
+        <item>Medical Issue</item>
+        <item>Heart - Heart Attack</item>
+        <item>Spine</item>
+        <item>Back </item>
+         <item>
+                Upper Back
+            </item>
+            <item>
+                Down Back
+            </item>
+            <item>
+                Trapezius(Traps)
+            </item>
+
+       <item>Chest</item>
+         <item>
+                Upper Pec
+            </item>
+            <item>
+                Low Pec
+            </item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Glutes</item>
+        <item>Calves</item>
+        <item>Deltoids</item>
+    </string-array>
+
+    <string-array name="Levels">
+        <item>Levels</item>
+        <item>Beginner </item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+
+
+
+    <string-array name="BodyPartTrain">
+        <item>Chest</item>
+        <item>Back </item>
+        <item>Bicep</item>
+        <item>Tricep</item>
+        <item>Hands</item>
+        <item>Chest-Back</item>
+        <item>Shoulders</item>
+        <item>Legs</item>
+        <item>Chest-Triceps</item>
+        <item>Back-Biceps</item>
+        <item>Chest-Biceps</item>
+        <item>Back-Triceps</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

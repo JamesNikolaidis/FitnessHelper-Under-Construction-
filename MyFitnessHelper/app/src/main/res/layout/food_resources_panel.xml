@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="FoodLayoutClicked"
+    android:background="#5cb1cd">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text=" Food Name "
+        android:textStyle="italic"
+        android:id="@+id/Food_NameTV"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Serving Size "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="ServingSize"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:id="@+id/ServingSize_ED"
+            android:layout_marginLeft="90dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text=""
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:id="@+id/ServingType_TV"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Calories "
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Calories Measure Here "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:id="@+id/Calories_TV"
+            android:layout_marginLeft="90dp"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Protein "
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Protein Measure Here "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:id="@+id/Protein_TV"
+            android:layout_marginLeft="90dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Carbs "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Carbs Measure Here "
+            android:textSize="20dp"
+            android:id="@+id/Carbs_TV"
+            android:textStyle="italic"
+            android:layout_marginLeft="90dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Fats "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Fats Measure Here "
+            android:textSize="20dp"
+            android:id="@+id/Fats_TV"
+            android:textStyle="italic"
+            android:layout_marginLeft="90dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Saturated Fat "
+            android:textSize="20dp"
+            android:textStyle="italic"
+
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Saturated Measure Here "
+            android:textSize="20dp"
+            android:id="@+id/SaturatedF_TV"
+            android:textStyle="italic"
+            android:layout_marginLeft="90dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Trans Fat "
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Trans Measure Here "
+            android:textSize="20dp"
+            android:id="@+id/TransF_TV"
+            android:textStyle="italic"
+            android:layout_marginLeft="90dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Cholysterol "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Chol Measure Here "
+            android:textSize="20dp"
+            android:id="@+id/Cholysterol_TV"
+            android:textStyle="italic"
+            android:layout_marginLeft="90dp"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Vitamin A "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Vit A Measure Here "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:id="@+id/VitaminA_TV"
+            android:layout_marginLeft="90dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Vitamin B "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Vitamin B Measure Here "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:id="@+id/VitaminB_TV"
+            android:layout_marginLeft="90dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Sodium "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Sodium Measure Here "
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:id="@+id/Sodium_TV"
+            android:layout_marginLeft="90dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

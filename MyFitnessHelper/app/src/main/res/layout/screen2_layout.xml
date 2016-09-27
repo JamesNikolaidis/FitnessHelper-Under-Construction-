@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8f989b"
+    style="@style/Divider"
+    android:isScrollContainer="true">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:isScrollContainer="true"
+    android:showDividers="end">
+<TextView
+    android:layout_width="100dp"
+    android:text="BreakFast"
+    android:textSize="20dp"
+    android:id="@+id/Breakfast"
+    android:textColor="@android:color/black"
+    android:layout_height="wrap_content"
+    android:onClick="LayoutClickMenu"
+    />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/Breakfast_list"
+      >
+    </ListView>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:text="Brunch"
+            android:textSize="20dp"
+            android:id="@+id/Brunch"
+            android:onClick="LayoutClickMenu"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/Brunch_list"
+            >
+
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:text="Lunch"
+            android:onClick="LayoutClickMenu"
+            android:textSize="20dp"
+            android:id="@+id/Lunch"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/Lunch_list"
+           >
+
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="130dp"
+            android:text="Post_Workout"
+            android:textSize="20dp"
+            android:id="@+id/Post"
+            android:onClick="LayoutClickMenu"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/Post_list"
+            >
+
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:text="Dinner"
+            android:textSize="20dp"
+            android:id="@+id/Dinner"
+            android:onClick="LayoutClickMenu"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/Dinner_list"
+          >
+
+        </ListView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="120dp"
+            android:text="Before_Ded"
+            android:textSize="20dp"
+            android:id="@+id/Bed"
+            android:onClick="LayoutClickMenu"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/Bed_list"
+           >
+
+        </ListView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+    </ScrollView>

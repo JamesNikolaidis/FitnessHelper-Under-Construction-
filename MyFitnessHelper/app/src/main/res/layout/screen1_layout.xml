@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eceee4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#d3f4ff"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories"
+            android:layout_gravity="left|center"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"/>
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colories "
+            android:id="@+id/USER_CALORIES"
+            android:layout_gravity="left|center"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_gravity="left|center"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"/>
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eat"
+            android:id="@+id/EATEN_CALORIES"
+            android:layout_gravity="left|center"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:layout_gravity="left|center"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"/>
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/FINAL_CALORIES"
+            android:layout_gravity="left|center"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

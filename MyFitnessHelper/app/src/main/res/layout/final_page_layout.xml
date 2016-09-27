@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="GoToApplicationMainPage"
+   >
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/toolbar3"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:clickable="false">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Last Step. Please complete the Form Below and just click  on the Screen , for the main Window."
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/white"
+            android:text="Body Part Focus"/>
+
+
+
+
+        <Spinner
+
+            android:id="@+id/Spinner"
+            android:layout_width="120dp"
+            android:background="@android:color/holo_blue_light"
+            android:layout_height="40dp"
+            style="@style/Base.TextAppearance.AppCompat.Display2"
+            android:clickable="true"
+            android:spinnerMode="dialog"
+
+            android:theme="@style/Base.Theme.AppCompat.Dialog"
+            android:splitMotionEvents="false" />
+
+
+
+
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/white"
+            android:text="Strong Body Part"/>
+
+
+
+        <Spinner
+            android:id="@+id/Spinner2"
+            android:layout_width="120dp"
+            android:background="@android:color/holo_blue_light"
+            android:layout_height="40dp"
+            style="@style/Base.TextAppearance.AppCompat.Display2"
+            android:clickable="true"
+            android:spinnerMode="dialog"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+
+            android:gravity="top|center"
+            android:layout_height="20dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/white"
+            android:text=" Athlete Level"/>
+
+
+
+        <Spinner
+            android:id="@+id/Spinner3"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="115dp"
+            android:background="@android:color/holo_blue_light"
+            android:layout_height="30dp"
+            style="@style/Base.TextAppearance.AppCompat.Display2"
+            android:clickable="true"
+            android:spinnerMode="dialog"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:orientation="horizontal">
+        <CheckBox
+            android:layout_marginLeft="20dp"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textAlignment="textStart"
+            android:textStyle="italic"
+            android:id="@+id/System_workout"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:visibility="visible"
+            android:text="Auto Plan"
+            android:enabled="true" />
+            <CheckBox
+                android:layout_marginLeft="50dp"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/User_workout"
+                android:checked="false"
+                android:textStyle="italic"
+                android:text="User Plan"
+                android:lines="@integer/design_snackbar_text_max_lines"
+                android:buttonTint="@color/abc_search_url_text_normal"
+                android:background="@android:color/holo_blue_light" />
+         </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:onClick="GoToFinalPage"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/toolbar2"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:clickable="false">
+
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:background="@drawable/previous_arrow"
+            android:focusable="false"
+            android:id="@+id/Back_ButtonOnTheTop"
+            android:onClick="ChangePage"
+            android:visibility="invisible"
+            />
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        >
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:id="@+id/bar"
+            android:background="@android:color/holo_blue_light"/>
+        <EditText
+
+            android:layout_marginLeft="100dp"
+            android:layout_width="50dp"
+            android:id="@+id/bar1"
+            android:layout_height="5dp"
+            android:background="@android:color/holo_blue_light"/>
+        <EditText
+
+            android:layout_marginLeft="180dp"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:id="@+id/bar2"
+            android:background="@android:color/holo_blue_light"/>
+        <EditText
+
+            android:layout_marginLeft="260dp"
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:id="@+id/bar3"
+            android:background="@android:color/holo_blue_light"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="300dp"
+        android:id="@+id/gg"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/first_steps_text"
+            android:textAlignment="textStart"
+            android:text="@string/sdsdsdsdsdsss"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Relative1"
+        >
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:hint="Height"
+            android:id="@+id/Height_ED"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:layout_marginLeft="160dp"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:hint="Weight"
+            android:id="@+id/Weight_ED"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="90dp"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:hint="Age"
+            android:id="@+id/Age_ED"
+            android:textAlignment="center"
+            />
+
+        <CheckBox
+            android:layout_marginLeft="30dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Lightly Active"
+            android:visibility="invisible"
+            android:id="@+id/Lightly_Active_CB"
+            android:checked="false"
+            android:onClick="CheckBoc_Check"/>
+        <CheckBox
+            android:layout_marginLeft="150dp"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="Moderate Active"
+            android:visibility="invisible"
+            android:id="@+id/Moderate_Active_CB"
+            android:onClick="CheckBoc_Check"
+            android:checked="false"/>
+        <CheckBox
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Very Active"
+            android:onClick="CheckBoc_Check"
+            android:visibility="invisible"
+            android:id="@+id/Very_Active_CB"
+            android:checked="false"/>
+        <CheckBox
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="150dp"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            android:text="Extremely Active"
+            android:onClick="CheckBoc_Check"
+            android:id="@+id/Extremely_Active_CB"
+            android:checked="false"/>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dd"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_marginLeft="80dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/previous_arrow"
+            android:enabled="false"
+            android:focusable="false"
+            android:id="@+id/Back_Button"
+            android:onClick="ChangePage"
+            android:backgroundTint="@color/abc_tint_switch_thumb" />
+        <Button
+            android:layout_marginLeft="50dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/Front_Button"
+            android:background="@drawable/next_arrow"
+            android:onClick="ChangePage"/>
+    </LinearLayout>
+</LinearLayout>

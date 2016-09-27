@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bodybuilding"
+        android:icon="@drawable/s256_256_ebfeee6bf988ae0ec6e771327773085d_bodybuilding"
+        android:title="Bodybuilding"
+        />
+    <item
+        android:id="@+id/Profile"
+        android:icon="@drawable/male_circle_128"
+        android:title="Profile"
+       />
+    <item
+        android:id="@+id/Help"
+        android:icon="@drawable/question_mark"
+        android:title="Help"
+       />
+
+
+</menu>
